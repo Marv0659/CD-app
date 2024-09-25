@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music CD's</title>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Music CD's
+        </h1>
+    </header>
+
+    <form>
+        <div>
+
+            <label for="cdArtist">Author</label>
+            <input type="text" name="cdArtist" id="cdArtist">
+        </div>
+        <div>
+            <label for="cdTitle">Title</label>
+            <input type="text" name="cdTitle" id="cdTitle">
+        </div>
+        <div>
+            <label for="year">Year</label>
+            <input type="text" name="year" id="year">
+        </div>
+        <button type="submit">Add</button>
+    </form>
+
+    <table id="cdTable">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>year</th>
+            </tr>
+        </thead>
+        <tbody id="cdTableBody"></tbody>
+
+    </table>
+
+</body>
+
+</html>
